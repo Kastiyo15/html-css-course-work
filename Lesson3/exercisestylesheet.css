@@ -1,0 +1,256 @@
+/* titles */
+.title {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+
+/* UBER */
+.uber-request-button {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 120px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber-request-button:hover {
+  opacity: 0.75;
+}
+
+.uber-request-button:active {
+  opacity: 0.5;
+}
+
+/* UBER */
+
+
+/* AMAZON */
+.amazon-add-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 36px;
+  width: 180px;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 14px;
+
+  cursor: pointer;
+  transition: background-color 0.15s,
+    opacity 0.15s;
+}
+
+.amazon-add-button:hover {
+  background-color: rgb(255, 181, 20);
+}
+
+.amazon-add-button:active {
+  opacity: 0.75
+}
+
+/* AMAZON */
+
+
+/* GITHUB */
+.github-signup-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 36px;
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+
+  cursor: pointer;
+  transition: box-shadow 0.15s,
+    opacity 0.15s;
+}
+
+.github-signup-button:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.github-signup-button:active {
+  opacity: 0.75
+}
+
+/* GITHUB */
+
+
+/* BOOTSTRAP */
+
+.bootstrap-start-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 36px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: background-color 0.15s,
+    opacity 0.15s;
+}
+
+.bootstrap-start-button:hover {
+  background-color: rgb(90, 61, 134);
+}
+
+.bootstrap-start-button:active {
+  opacity: 0.75;
+}
+
+.bootstrap-download-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 36px;
+  width: 120px;
+  border: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  font-weight: bold;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: color 0.15s,
+    background-color 0.15s,
+    opacity 0.15s;
+}
+
+.bootstrap-download-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.bootstrap-download-button:active {
+  opacity: 0.75;
+}
+
+/* BOOTSTRAP */
+
+
+/* LINKEDIN */
+
+.linkedin-apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 40px;
+  width: 240px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+
+  cursor: pointer;
+  transition: background-color 0.25s,
+    opacity 0.15s;
+}
+
+.linkedin-apply-button:hover {
+  background-color: rgb(12, 74, 136);
+}
+
+.linkedin-apply-button:active {
+  opacity: 0.75;
+}
+
+.linkedin-save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 40px;
+  width: 80px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  border-width: 1px;
+  font-weight: bold;
+  font-size: 15px;
+
+  cursor: pointer;
+  transition: background-color 0.15s,
+    border-width 0.15s,
+    opacity 0.15s;
+
+}
+
+.linkedin-save-button:hover {
+  background-color: rgb(228, 240, 253);
+  border-width: 2px;
+}
+
+.linkedin-save-button:active {
+  opacity: 0.6;
+}
+
+/* LINKEDIN */
+
+/* CHALLENGE */
+.challenge-link {
+  color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+
+.challenge-link:hover {
+  color: rgb(199, 81, 31);
+}
+
+.challenge-price {
+  color: rgb(0, 136, 0);
+  font-weight: bold;
+}
+
+.challenge-addcart-button {
+  background-color: rgb(249, 217, 76);
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+
+  transition: background-color 0.15s,
+    opacity 0.15s;
+}
+
+.challenge-addcart-button:hover {
+  background-color: rgb(247, 202, 0);
+
+}
+
+.challenge-addcart-button:active {
+  opacity: 0.5;
+}
+
+.challenge-buynow-button {
+  background-color: rgb(255, 164, 28);
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+
+  transition: background-color 0.15s,
+    opacity 0.15s;
+}
+
+.challenge-buynow-button:hover {
+  background-color: rgb(250, 137, 0);
+
+}
+
+.challenge-buynow-button:active {
+  opacity: 0.75;
+}
+
+/* CHALLENGE */

@@ -1,0 +1,70 @@
+/* YouTube */
+.subscribe-button {
+    background-color: rgb(197, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 36px;
+    width: 120px;
+    margin: 8px;
+    cursor: pointer;
+
+    transition: opacity 0.25s;
+}
+
+/* addition style will apply when hover */
+.subscribe-button:hover {
+    opacity: 0.6;
+
+}
+
+/* addition style will apply when click */
+.subscribe-button:active {
+    opacity: 0.3;
+
+}
+
+.join-button {
+    background-color: white;
+    color: rgb(41, 118, 211);
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    height: 36px;
+    width: 80px;
+    margin: 8px;
+    cursor: pointer;
+
+    transition: background-color 0.15s,
+        color 1s;
+}
+
+.join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+
+}
+
+/* addition style will apply when click */
+.join-button:active {
+    opacity: 0.5;
+
+}
+
+/* Twitter */
+.tweet-button {
+    background-color: rgb(30, 171, 226);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    height: 36px;
+    width: 90px;
+    margin: 8px;
+    cursor: pointer;
+
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)
+}

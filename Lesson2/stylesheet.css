@@ -1,0 +1,110 @@
+.uber-button {
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 120px;
+    border: none;
+    font-size: 12px;
+}
+
+
+.amazon-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 36px;
+    width: 180px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.bootstrap-getstarted-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    height: 36px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bootstrap-download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    height: 36px;
+    width: 120px;
+    border: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.linkedin-apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 36px;
+    width: 220px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.linkedin-save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    height: 36px;
+    width: 70px;
+    border: solid;
+    border-radius: 18px;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.challenge-link {
+    color: rgb(0, 113, 133);
+}
+
+.challenge-price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.challenge-addcart-button {
+    background-color: rgb(249, 217, 76);
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.challenge-buynow-button {
+    background-color: rgb(255, 164, 28);
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
