@@ -1,0 +1,41 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.text {
+    font-weight: normal;
+    font-size: 16px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 16px;
+    width: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 400px;
+    text-align: center;
+}
+

@@ -1,0 +1,48 @@
+.title {
+    font-family: Arial;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+input {
+    display: block;
+
+    width: 400px;
+    font-size: 16px;
+
+    border: none;
+    background-color: rgb(240, 240, 240);
+
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.destination-form {
+
+    margin-bottom: 35px;
+
+}
+
+button {
+    display: inline-block;
+    font-size: 16px;
+
+    border: none;
+    background-color: rgb(240, 240, 240);
+    color: black;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.request-button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-right: 20px;
+}

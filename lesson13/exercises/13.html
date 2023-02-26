@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="13.css">
+  <title>Lesson 13 Exercises - Nested Flexbox</title>
+</head>
+
+<body>
+  <h3>13a. Create a flexbox with 2 elements (width 100px and 200px). Then make the first element a flexbox to create
+    this design.</h3>
+  <div class="a-flexbox">
+    <div class="a-item1 pink">
+      <p class="a-item1-text">item1</p>
+    </div>
+    <div class="a-item2 lightblue"></div>
+  </div>
+
+
+  <h3>13b. Similar to exercise 13a. Use nested flexbox (flexbox inside flexbox) to create the design below:</h3>
+  <div class="b-flexbox">
+    <div class="b-column1 pink"></div>
+    <div class="b-column2 lightblue">
+      <div>row1</div>
+      <div class="b-row2">
+        <div class="b-row2-items">row2</div>
+        <div class="b-row2-items">row2</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>13c. Use nested kayouts technique to break down this design into horizontal and vertical layouts.</h3>
+  <img class="c-image" src="13c.png">
+
+  <h3>13d. Code the design. Use flexbox for horizontal layouts and regular divs (display:block) for vertical layouts
+  </h3>
+  <div class="d-container">
+    <div class="d-heading">ALL INBOXES</div>
+    <div class="d-email">
+      <img class="d-image" src="/Lesson13/images/cat1.jpg">
+      <div class="d-info">
+        <div class="d-row1">
+          <div class="d-email-title">Chewy Promotions</div>
+          <div class="d-email-time">4:58 PM</div>
+        </div>
+        <div class="d-email-subject">Biggest sales of the year!</div>
+        <div class="d-email-content">Hey there! We're writing to tell you about our...</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>13.e Make a few copies of exercise 13d. and create this design.</h3>
+  <div class="d-container">
+    <div class="d-heading">ALL INBOXES</div>
+    <div class="d-email">
+      <img class="d-image" src="/Lesson13/images/cat1.jpg">
+      <div class="d-info">
+        <div class="d-row1">
+          <div class="d-email-title">Chewy Promotions</div>
+          <div class="d-email-time">4:58 PM</div>
+        </div>
+        <div class="d-email-subject">Biggest sales of the year!</div>
+        <div class="d-email-content">Hey there! We're writing to tell you about our...</div>
+      </div>
+    </div>
+
+    <div class="d-email">
+      <img class="d-image" src="/Lesson13/images/dog.jpg">
+      <div class="d-info">
+        <div class="d-row1">
+          <div class="d-email-title">Best Buy</div>
+          <div class="d-email-time">12:32 PM</div>
+        </div>
+        <div class="d-email-subject">Your Best Buy eReceipt</div>
+        <div class="d-email-content">Thank you for shopping at Best Buy, here is...</div>
+      </div>
+    </div>
+
+    <div class="d-email">
+      <img class="d-image" src="/Lesson13/images/cat2.jpg">
+      <div class="d-info">
+        <div class="d-row1">
+          <div class="d-email-title">Netflix</div>
+          <div class="d-email-time">9:00 AM</div>
+        </div>
+        <div class="d-email-subject">Here's what's coming soon to Netflix</div>
+        <div class="d-email-content">Brand new movies and shows, old favourites...</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>13g. Code this design using nested flexbox (flexbox inside flexbox)</h3>
+  <div class="g-container">
+    <div class="g-avatar-column">
+      <img class="g-avatar" src="/lesson13/images/cat1.jpg">
+    </div>
+
+    <div class="g-tweet-column">
+      <div class="g-user-details">
+        <div class="g-user-name">supersimple.dev</div>
+        <div class="g-user-handle">@SuperSimpleDev</div>
+      </div>
+
+      <div class="g-tweet-text">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+
+      <div class="g-attached-link">
+        <div class="g-link-image-template"></div>
+        <div class="g-link-text">
+          <div class="g-link-website">youtube.com</div>
+          <div class="g-link-title">Backend web development - a complete overview (2021)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

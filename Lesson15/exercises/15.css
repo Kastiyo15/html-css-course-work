@@ -1,0 +1,187 @@
+body {
+    height: 3000px;
+}
+
+.a-button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
+.b-box {
+    background-color: grey;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.c-box {
+    background-color: grey;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.c-button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    top: -20px;
+    left: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+.d-box {
+    background-color: grey;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.d-button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    top: -20px;
+    left: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+.d-time {
+    background-color: black;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 1px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.e-container {
+    position: relative;
+    display: inline-block;
+}
+
+.e-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.e-discount {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 20px;
+    right: 0;
+}
+
+.f-container {
+    position: relative;
+    display: inline-block;
+}
+
+.f-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.f-discount {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 20px;
+    right: 0;
+}
+
+.f-flexbox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-button {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+}

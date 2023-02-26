@@ -1,0 +1,136 @@
+.red-square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.green-circle {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.service-box {
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    padding-left: 15px;
+    padding-bottom: 20px;
+
+}
+
+.service-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.youtube-music {
+    background-color: rgb(36, 35, 35);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 360px;
+}
+
+.youtube-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.youtube-text {
+    color: rgb(175, 175, 175);
+}
+
+.twitter-container {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-radius: 6px;
+}
+
+.twitter-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.twitter-textbox {
+    border: none;
+    font-size: 18px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.twitter-button {
+    background-color: rgb(63, 165, 248);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.google-container {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.google-logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.google-searchbox {
+    width: 500px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+
+    font-size: 16px;
+
+    border: none;
+    border-radius: 30px;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 30px;
+}
+
+.google-button {
+    border: none;
+
+    font-size: 15px;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}

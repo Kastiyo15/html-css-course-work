@@ -1,0 +1,14 @@
+.text-box {
+    display: block;
+
+    font-size: 16px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(100,100,100);
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}

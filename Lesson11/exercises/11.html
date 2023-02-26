@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="11.css">
+    <title>Lesson 11 Exercises - CSS Grid</title>
+</head>
+
+<body>
+    <p>11a. Create a grid with 2 columns with widths of 200px and 75px</p>
+    <div class="exercise-a-grid">
+        <div style="background-color: lightblue;">
+            200px
+        </div>
+        <div style="background-color: lightpink;">
+            75px
+        </div>
+    </div>
+
+    <p>11b. Create a grid with 3 columns. Widths = 50px | remaining space | 75px</p>
+    <div class="exercise-b-grid">
+        <div style="background-color: lightblue;">
+            50px
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+        <div style="background-color: lightblue;">
+            75px
+        </div>
+    </div>
+
+    <p>11c. Create a grid with 4 equal columns that take up the page. Space between the columns = 20px, space between
+        rows = 10px</p>
+    <div class="exercise-c-grid">
+        <div style="background-color: lightblue;">
+            1fr
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+        <div style="background-color: lightblue;">
+            1fr
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+        <div style="background-color: lightblue;">
+            1fr
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+        <div style="background-color: lightblue;">
+            1fr
+        </div>
+    </div>
+
+    <p>11d. Continuing from exercise 10e. create this design using CSS Grid</p>
+    <div class="exercise-d-grid">
+        <div class="exercise-d-profile">
+            <img class="exercise-d-profile-picture" src="/Lesson10/images/cat (1).jpg">
+            <p class="exercise-d-profile-name">Oliver</p>
+            <div class="exercise-d-mutual-friends-grid">
+                <img class="exercise-d-mutual-picture" src="/Lesson10/images/dog2.jpg">
+                <p class="exercise-d-mutual-friends">2 mutual friends</p>
+            </div>
+            <button class="exercise-d-button">Add Friend</button>
+        </div>
+
+        <div class="exercise-d-profile">
+            <img class="exercise-d-profile-picture" src="/Lesson10/images/cat2.jpg">
+            <p class="exercise-d-profile-name">Mimi</p>
+            <div class="exercise-d-mutual-friends-grid">
+                <img class="exercise-d-mutual-picture" src="/Lesson10/images/dog2.jpg">
+                <p class="exercise-d-mutual-friends">3 mutual friends</p>
+            </div>
+            <button class="exercise-d-button">Add Friend</button>
+        </div>
+
+        <div class="exercise-d-profile">
+            <img class="exercise-d-profile-picture" src="/Lesson10/images/dog.jpg">
+            <p class="exercise-d-profile-name">Rex</p>
+            <div class="exercise-d-mutual-friends-grid">
+                <img class="exercise-d-mutual-picture" src="/Lesson10/images/dog2.jpg">
+                <p class="exercise-d-mutual-friends">4 mutual friends</p>
+            </div>
+            <button class="exercise-d-button">Add Friend</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

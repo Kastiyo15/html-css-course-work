@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Lesson 12 Flexbox Practice</title>
+</head>
+
+<!-- Takes up as much horizontal space as it needs -->
+<!-- Vertically aligns the boxes -->
+
+<body style="padding-bottom: 1000px;">
+    <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+        <div style="background-color: lightblue;">
+            div 1 text
+        </div>
+        <div style="background-color: pink;">
+            div 2 <p> text </p>
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    ">
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: pink;
+        flex: 1;
+        ">
+            flex: 1 <!-- flex: 1 is equivalent to 1fr in grid -->
+        </div>
+    </div>
+
+    <!-- Difference between this and grid:
+        Grids are rigid, changing order of the divs doesnt affect layout
+        However, changing the order of divs in flex box assigns the 
+        appropriate layout (elements keep their width in flex) -->
+    <div style="
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    ">
+        <div style="
+        background-color: lightblue;
+        flex: 1;
+        ">
+            flex: 1
+        </div>
+        <div style="
+        background-color: pink;
+        width: 100px;
+        ">
+            100px <!-- flex: 1 is equivalent to 1fr in grid -->
+        </div>
+        <div style="
+        background-color: lightblue;
+        flex: 2;
+        ">
+            flex: 2 <!-- flex: 2 is equivalent to 2fr in grid -->
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    ">
+        <!-- justify-content affects alignment when using flexbox
+        default is 'start' which aligns it to the left -->
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: pink;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    ">
+        <!-- space-between aligns the elements so that they have the same space between them -->
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: pink;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    ">
+        <!-- align-items affects vertical alignment, default is 'stretched'. Can use 'start' 'end' 'center' -->
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: pink;
+        width: 100px;
+        ">
+            100px
+        </div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+            100px
+        </div>
+    </div>
+</body>
+
+</html>

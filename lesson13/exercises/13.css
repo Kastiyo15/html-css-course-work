@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 500px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+/* Question A */
+
+.a-flexbox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.a-item1 {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-item1-text {
+    background-color: black;
+    color: white;
+}
+
+.a-item2 {
+    width: 200px;
+}
+
+/* Question B */
+
+.b-flexbox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.b-column1 {
+    width: 100px;
+}
+
+.b-column2 {
+    width: 200px;
+}
+
+.b-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.b-row2-items {
+    background-color: black;
+    color: white;
+}
+
+/* Question C */
+
+.c-image {
+    height: 150px;
+}
+
+/* Question D */
+
+.d-container {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.d-heading {
+    display: block;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 14px;
+    ;
+}
+
+.d-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+
+    transition: box-shadow 0.15s;
+}
+
+.d-email:hover {
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+.d-image {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.d-info {
+    flex: 1;
+}
+
+.d-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+
+}
+
+.d-email-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.d-email-time {
+    font-size: 14px;
+    color: grey;
+    font-weight: bold;
+}
+
+.d-email-subject {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+
+}
+
+.d-email-content {
+    color: grey;
+}
+
+/* Question G */
+
+.g-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 420px;
+
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.g-avatar-column {
+    margin-right: 10px;
+}
+
+.g-avatar {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.g-tweet-column {
+    flex: 1;
+}
+
+.g-user-details {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.g-user-name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.g-user-handle {
+    color: grey;
+    cursor: pointer;
+}
+
+.g-tweet-text {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.g-attached-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-width: 1px;
+    overflow: hidden;
+}
+
+.g-link-image-template {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 199, 199);
+    margin-right: 10px;
+
+}
+
+.g-link-text {
+    flex: 1;
+}
+
+.g-link-website {
+    color: grey;
+    margin-bottom: 3px;
+}
+
+.g-link-title {
+    font-weight: bold;
+    line-height: 22px;
+}

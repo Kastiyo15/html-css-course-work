@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14 CSS Position Practice</title>
+</head>
+
+<!-- add padding to the body to moves things below the header! -->
+<body style="
+height: 3000px;
+padding-top: 60px;
+padding-left: 80px;
+">
+<!-- adjusting the 'top' 'left' 'right' 'bottom' values will cause it to stretch -->
+    <div style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        height: 50px;
+        left: 0;
+        right: 0;
+        ">header</div>
+
+    <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+        width: 72px;
+    ">
+        sidebar
+    </div>
+    <div style="
+        background-color:lightblue;
+        height: 200px;
+        width: 200px;
+        position: static; /* the defaul position */
+        ">
+        div 1
+    </div>
+    <div style="
+    background-color:lightpink;
+    height: 200px;
+    width: 200px;
+    ">div 2</div>
+</body>
+
+</html>

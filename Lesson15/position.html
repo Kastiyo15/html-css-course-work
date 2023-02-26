@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14 CSS Position Practice</title>
+</head>
+
+<!-- add padding to the body to moves things below the header! -->
+
+<body style="
+height: 3000px;
+padding-top: 60px;
+padding-left: 80px;
+">
+    <!-- adjusting the 'top' 'left' 'right' 'bottom' values will cause it to stretch -->
+    <div style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        height: 50px;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        ">
+        header
+    </div>
+
+    <!-- fixed = placed in the browser window -->
+    <!-- absolute = placed on the page -->
+    <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+        width: 72px;
+    ">
+        sidebar
+
+        <!-- Placing the absolute position relative to the fixed position -->
+        <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        ">
+            X
+        </div>
+    </div>
+
+    <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 10px;
+    top: 60px;
+    ">
+        absolute
+    </div>
+
+    <div style="
+        background-color:lightblue;
+        height: 200px;
+        width: 200px;
+        position: static; /* the defaul position */
+        ">
+        div 1
+    </div>
+
+    <!-- putting an absolute inside a relative makes it work as normal, relative to element -->
+    <!-- putting an absolute in a static does nothing, makes it relative to page -->
+    <div style="
+    background-color:lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    ">
+        div 2
+        <div style="
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        right: 10px;
+        bottom: 10px;
+        ">
+            5:00
+        </div>
+    </div>
+
+</body>
+
+</html>

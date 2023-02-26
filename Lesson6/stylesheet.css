@@ -1,0 +1,24 @@
+p {
+    font-family: Montserrat;
+    width: 400px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.exercise-6-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+.exercise-6-underlined {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.exercise-6-underlined:hover {
+    color: grey;
+}
